@@ -49,7 +49,11 @@ const App = () => {
   }
 
   const getWeatherinfo = async(e) => {
-    e.preventDefault();
+    if(apiKey === ""){
+      alert("Empty key space in key.json")
+    }
+    else{
+      e.preventDefault();
     try{
       const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`);
       if(response.status == 404){
@@ -61,12 +65,14 @@ const App = () => {
         const data = await response.json()
         setWeatherStatus(data);
       }
-
+      }
+      catch(error){
+        console.log("wystapil blad")
+      }
+    }
+    
       
-    }
-    catch(error){
-      console.log("wystapil blad")
-    }
+    
     
   }
   function capitalizeFirstLetter(string) {
