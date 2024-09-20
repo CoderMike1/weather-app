@@ -9,6 +9,8 @@ Simple and handy webapp to check current weather.
 
 ## Technologies
 ![a](https://camo.githubusercontent.com/f93e05694a6f01f2f6a37713a454a942442a5ff2b33083891096a6f7e57842f8/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f72656163742d2532333230323332612e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d7265616374266c6f676f436f6c6f723d253233363144414642)
+
+
 Weather API from [Here!](https://openweathermap.org/)
 
 ## Setup
@@ -18,7 +20,7 @@ git clone https://github.com/CoderMike1/weather-app.git
 ```
 cd weatherApp
 ```
-Put API Key from [Here!](https://openweathermap.org/) to src/key.json
+Put API Key from [here](https://openweathermap.org/) to src/key.json
 
 ```
 npm install
