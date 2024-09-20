@@ -34,9 +34,9 @@ npm run dev
 
 ## Screenshoots
 <p>
-  <img src="src/screenshots/weatherApp1.png"  width="300" style="margin: 10px;">
-  <img src="src/screenshots/weatherApp2.png"  width="300" style="margin: 10px;">
-  <img src="src/screenshots/weatherApp3.png"  width="300" style="margin: 10px;">
-  <img src="src/screenshots/weatherApp4.png"  width="300" style="margin: 10px;">
+  <img src="src/screenshots/weatherApp1.png"  style="margin: 10px;">
+  <img src="src/screenshots/weatherApp2.png"  style="margin: 10px;">
+  <img src="src/screenshots/weatherApp3.png"   style="margin: 10px;">
+  <img src="src/screenshots/weatherApp4.png"   style="margin: 10px;">
 </p>
 
